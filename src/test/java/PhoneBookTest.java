@@ -49,9 +49,10 @@ public class PhoneBookTest {
         PhoneBook.add("Katya", "89261111113");
         assertEquals("Alya Katya Masha ", PhoneBook.printAllNames());
     }
+
     @Test
     public void testPrintAllNamesNoContacts() {
-                assertEquals("No contacts", PhoneBook.printAllNames());
+        assertEquals("No contacts", PhoneBook.printAllNames());
     }
 
 }
